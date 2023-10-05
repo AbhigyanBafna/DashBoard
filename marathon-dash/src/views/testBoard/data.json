@@ -1,0 +1,345 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "videosWatched": [
+          {
+            "name": "Video 1",
+            "duration": "30 mins"
+          },
+          {
+            "name": "Video 2",
+            "duration": "45 mins"
+          }
+        ],
+        "quizzesAttempted": [
+          {
+            "name": "Quiz 1",
+            "score": 80
+          },
+          {
+            "name": "Quiz 2",
+            "score": 75
+          }
+        ],
+        "assignmentsSubmitted": [
+          {
+            "name": "Assignment 1",
+            "score": 90
+          },
+          {
+            "name": "Assignment 2",
+            "score": 95
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Alice Smith",
+        "videosWatched": [
+          {
+            "name": "Video 3",
+            "duration": "25 mins"
+          },
+          {
+            "name": "Video 4",
+            "duration": "40 mins"
+          }
+        ],
+        "quizzesAttempted": [
+          {
+            "name": "Quiz 3",
+            "score": 70
+          },
+          {
+            "name": "Quiz 4",
+            "score": 85
+          }
+        ],
+        "assignmentsSubmitted": [
+          {
+            "name": "Assignment 3",
+            "score": 88
+          },
+          {
+            "name": "Assignment 4",
+            "score": 92
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Bob Johnson",
+        "videosWatched": [
+          {
+            "name": "Video 5",
+            "duration": "35 mins"
+          },
+          {
+            "name": "Video 6",
+            "duration": "50 mins"
+          }
+        ],
+        "quizzesAttempted": [
+          {
+            "name": "Quiz 5",
+            "score": 78
+          },
+          {
+            "name": "Quiz 6",
+            "score": 88
+          }
+        ],
+        "assignmentsSubmitted": [
+          {
+            "name": "Assignment 5",
+            "score": 91
+          },
+          {
+            "name": "Assignment 6",
+            "score": 94
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Emily Davis",
+        "videosWatched": [
+          {
+            "name": "Video 7",
+            "duration": "30 mins"
+          },
+          {
+            "name": "Video 8",
+            "duration": "45 mins"
+          }
+        ],
+        "quizzesAttempted": [
+          {
+            "name": "Quiz 7",
+            "score": 82
+          },
+          {
+            "name": "Quiz 8",
+            "score": 79
+          }
+        ],
+        "assignmentsSubmitted": [
+          {
+            "name": "Assignment 7",
+            "score": 89
+          },
+          {
+            "name": "Assignment 8",
+            "score": 93
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Sophia Wilson",
+        "videosWatched": [
+          {
+            "name": "Video 9",
+            "duration": "28 mins"
+          },
+          {
+            "name": "Video 10",
+            "duration": "42 mins"
+          }
+        ],
+        "quizzesAttempted": [
+          {
+            "name": "Quiz 9",
+            "score": 76
+          },
+          {
+            "name": "Quiz 10",
+            "score": 90
+          }
+        ],
+        "assignmentsSubmitted": [
+          {
+            "name": "Assignment 9",
+            "score": 87
+          },
+          {
+            "name": "Assignment 10",
+            "score": 96
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Liam Brown",
+        "videosWatched": [
+          {
+            "name": "Video 11",
+            "duration": "33 mins"
+          },
+          {
+            "name": "Video 12",
+            "duration": "48 mins"
+          }
+        ],
+        "quizzesAttempted": [
+          {
+            "name": "Quiz 11",
+            "score": 84
+          },
+          {
+            "name": "Quiz 12",
+            "score": 77
+          }
+        ],
+        "assignmentsSubmitted": [
+          {
+            "name": "Assignment 11",
+            "score": 92
+          },
+          {
+            "name": "Assignment 12",
+            "score": 88
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Olivia Lee",
+        "videosWatched": [
+          {
+            "name": "Video 13",
+            "duration": "29 mins"
+          },
+          {
+            "name": "Video 14",
+            "duration": "43 mins"
+          }
+        ],
+        "quizzesAttempted": [
+          {
+            "name": "Quiz 13",
+            "score": 75
+          },
+          {
+            "name": "Quiz 14",
+            "score": 91
+          }
+        ],
+        "assignmentsSubmitted": [
+          {
+            "name": "Assignment 13",
+            "score": 86
+          },
+          {
+            "name": "Assignment 14",
+            "score": 95
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Mia Anderson",
+        "videosWatched": [
+          {
+            "name": "Video 15",
+            "duration": "31 mins"
+          },
+          {
+            "name": "Video 16",
+            "duration": "47 mins"
+          }
+        ],
+        "quizzesAttempted": [
+          {
+            "name": "Quiz 15",
+            "score": 79
+          },
+          {
+            "name": "Quiz 16",
+            "score": 86
+          }
+        ],
+        "assignmentsSubmitted": [
+          {
+            "name": "Assignment 15",
+            "score": 90
+          },
+          {
+            "name": "Assignment 16",
+            "score": 93
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "James Martin",
+        "videosWatched": [
+          {
+            "name": "Video 17",
+            "duration": "34 mins"
+          },
+          {
+            "name": "Video 18",
+            "duration": "49 mins"
+          }
+        ],
+        "quizzesAttempted": [
+          {
+            "name": "Quiz 17",
+            "score": 83
+          },
+          {
+            "name": "Quiz 18",
+            "score": 78
+          }
+        ],
+        "assignmentsSubmitted": [
+          {
+            "name": "Assignment 17",
+            "score": 91
+          },
+          {
+            "name": "Assignment 18",
+            "score": 89
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Ava Taylor",
+        "videosWatched": [
+          {
+            "name": "Video 19",
+            "duration": "32 mins"
+          },
+          {
+            "name": "Video 20",
+            "duration": "46 mins"
+          }
+        ],
+        "quizzesAttempted": [
+          {
+            "name": "Quiz 19",
+            "score": 77
+          },
+          {
+            "name": "Quiz 20",
+            "score": 88
+          }
+        ],
+        "assignmentsSubmitted": [
+          {
+            "name": "Assignment 19",
+            "score": 88
+          },
+          {
+            "name": "Assignment 20",
+            "score": 92
+          }
+        ]
+      }
+    ]
+  }
+  
