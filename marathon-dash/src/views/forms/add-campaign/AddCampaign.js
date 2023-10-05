@@ -82,15 +82,43 @@ const AddCampaign = () => {
       <CCol xs={12}>
         <CCard className="mb-4">
           <CCardHeader>
-            <strong>Create Help</strong>
+            <strong>Add Campaign</strong>
           </CCardHeader>
           <CCardBody>
             <CForm>
               <div className="mb-3">
-                <CFormLabel htmlFor="exampleFormControlTextarea1">Concerns</CFormLabel>
+                <CFormLabel htmlFor="exampleFormControlTextarea1">PR message</CFormLabel>
                 <CFormTextarea id="exampleFormControlTextarea1" rows="3" value={prMessage} onChange={(e) => setPrMessage(e.target.value)} ></CFormTextarea>
               </div>
               <div className="mb-3">
+              <label htmlFor="exampleFormControlInput1" className="form-label">Poster</label>
+              <div>
+                <input
+                  type="file"
+                  accept="image/*"
+                  className="form-control"
+                  id="exampleFormControlInput1"
+                  onChange={handleImageChange}
+                />
+              </div>
+              {previewImage && (
+                <div>
+                  <img
+                    src={previewImage}
+                    alt="poster"
+                    className="img-thumbnail"
+                    style={{ width: '200px', height: '200px' }}
+                  />
+                </div>
+              )}
+            </div>
+              <div>
+                {
+                  loader2 ? <CSpinner color="primary" size='sm' /> : <CIcon icon={cilCheckCircle} customClassName="text-success"  style={{ width: '1rem', height: '1rem' }} />
+                }
+                Facebook Post
+                <br />
+              <br />
               { finalText ?
                 <a href="/#/dashboard">
                   <CButton onClick={generatePoster}>Next</CButton>

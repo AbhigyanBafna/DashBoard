@@ -65,7 +65,7 @@ const routes = [
   { path: '/tutorials', name: 'Tutorials', element: Tutorials },
   { path: '/blogs', name: 'Blogs', element: Blogs },
   { path: '/forms/add-campaign', name: 'AddCampaign', element: AddCampaign },
-  { path: '/forms/help', name: 'Help', element: AddCampaign },
+  { path: '/forms/help', name: 'Help', element: Help },
   { path: '/view', name: 'ViewCampaign', element: CampaignCard },
   { path: '/gallery', name: 'Gallery', element: CampaignGallery },
   { path: '/theme', name: 'Theme', element: Colors, exact: true },
