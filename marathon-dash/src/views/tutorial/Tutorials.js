@@ -28,7 +28,7 @@ const Tutorial = () => {
     const queryParameters = selectedDisabilitiesArray.join(' and ');
 
     axios
-      .get(`http://localhost:8000/youtube?keyword=${queryParameters}`)
+      .get(`https://8767-103-246-224-137.ngrok-free.app/youtube?keyword=${queryParameters}`)
       .then((res) => {
         console.log(res.data);
         setData(res.data);
@@ -82,8 +82,9 @@ const Tutorial = () => {
       </div>
 
       <div className='d-flex flex-wrap gap-3 mt-4'>
-        {data && data.length > 0 ? (
-          data.map((item, index) => (
+      {data && Array.isArray(data) && data.length > 0 ? (
+
+          data?.map((item, index) => (
             <CCard key={index} style={{ maxWidth: '18rem' }}>
               <CCardImage orientation='top' src={item.thumbnail} />
               <CCardBody>

@@ -39,6 +39,7 @@ const Layout = React.lazy(() => import('./views/forms/layout/Layout'))
 const Range = React.lazy(() => import('./views/forms/range/Range'))
 const Select = React.lazy(() => import('./views/forms/select/Select'))
 const Validation = React.lazy(() => import('./views/forms/validation/Validation'))
+const Help = React.lazy(() => import('./views/forms/add-campaign/Help'))
 
 const Charts = React.lazy(() => import('./views/charts/Charts'))
 
@@ -64,6 +65,7 @@ const routes = [
   { path: '/tutorials', name: 'Tutorials', element: Tutorials },
   { path: '/blogs', name: 'Blogs', element: Blogs },
   { path: '/forms/add-campaign', name: 'AddCampaign', element: AddCampaign },
+  { path: '/forms/help', name: 'Help', element: AddCampaign },
   { path: '/view', name: 'ViewCampaign', element: CampaignCard },
   { path: '/gallery', name: 'Gallery', element: CampaignGallery },
   { path: '/theme', name: 'Theme', element: Colors, exact: true },

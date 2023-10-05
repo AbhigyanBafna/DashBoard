@@ -29,10 +29,11 @@ const Blogs = () => {
     const searchQuery = `Educational blogs on ${queryParameters} disabilities`;
 
     axios
-      .get(`http://localhost:8000/scrape?keyword=${searchQuery}`)
+      .get(`https://8767-103-246-224-137.ngrok-free.app/scrape?keyword=${searchQuery}`)
       .then((res) => {
         console.log(res.data);
         setData(res.data);
+        console.log(data);
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
@@ -83,8 +84,8 @@ const Blogs = () => {
       </div>
 
       <div className="d-flex flex-wrap gap-3 mt-4">
-        {data && data.length > 0 ? (
-          data.map((item, index) => (
+        {data && data?.length > 0 ? (
+          data?.map((item, index) => (
             <CCard
               key={index}
               style={{ maxWidth: '300px', height: '200px' }}

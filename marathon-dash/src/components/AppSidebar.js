@@ -15,7 +15,7 @@ import 'simplebar/dist/simplebar.min.css'
 // sidebar nav config
 import navigation from '../_nav'
 
-import logo from "../assets/brand/rc.png"
+import logo from "../assets/brand/logoedumate.png"
 
 const AppSidebar = () => {
   const dispatch = useDispatch()
